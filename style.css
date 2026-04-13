@@ -1602,17 +1602,19 @@ section {
     flex-direction: column;
 }
 
-#goToPage{
-    display: flex; justify-content: center; gap: 10px;
+#goToPage {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
-#goToPageInput{
+#goToPageInput {
     width: 40%;
     padding: 10px;
-    border: 1px solid #cccccc;
+    font-size: 16px;
     border-radius: 4px;
     box-sizing: border-box;
-    font-size: 16px;
+    border: 1px solid #cccccc;
 }
 
 #pagination-controls button {
